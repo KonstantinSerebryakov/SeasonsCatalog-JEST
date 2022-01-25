@@ -1,0 +1,114 @@
+.container-page {
+  width: 80%;
+  margin: auto;
+  max-width: 800px;
+  font-size: 1.2em;
+
+  input {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"] {
+    margin: 40px 0 40px;
+    padding: 30px;
+    display: block;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  input[type="button"]:hover {
+    box-shadow: 10px 10px 25px 0 rgba(100, 100, 100, 0.8);
+  }
+
+  fieldset div input {
+    cursor: pointer;
+  }
+
+  input:disabled {
+    color: black;
+  }
+
+  textarea:disabled {
+    color: black;
+  }
+
+  .main_form {
+    //width: 100%;
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+  }
+
+  .input_name {
+    //width: 75%;
+    margin-bottom: 20px;
+  }
+
+  .img_form {
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  fieldset {
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+  }
+
+  fieldset div {
+    user-select: none;
+    //cursor: pointer;
+    border: 1px dashed grey;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 6px 6px 0 6px;
+
+    input[type='radio']::after {
+      width: 15px;
+      height: 15px;
+      border-radius: 15px;
+      top: -2px;
+      left: -1px;
+      position: relative;
+      background-color: #d1d3d1;
+      content: '';
+      display: inline-block;
+      visibility: visible;
+      border: 2px solid white;
+    }
+
+    input[type='radio']:checked::after {
+      width: 15px;
+      height: 15px;
+      border-radius: 15px;
+      top: -2px;
+      left: -1px;
+      position: relative;
+      background-color: #ffa500;
+      content: '';
+      display: inline-block;
+      visibility: visible;
+      border: 2px solid white;
+    }
+  }
+
+  fieldset div label {
+    cursor: pointer;
+  }
+
+  .about_info {
+    border-radius: 10px;
+    width: 70%;
+    resize: none;
+    font-size: 1.2em;
+  }
+}

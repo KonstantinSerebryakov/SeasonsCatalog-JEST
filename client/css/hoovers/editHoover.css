@@ -1,0 +1,17 @@
+.listBlock li {
+    position: relative;
+}
+
+.listBlock li::before {
+    box-sizing: border-box;
+    content: "изменить";
+    cursor: pointer;
+    background: #ff5900;
+    /*border: black 5px solid;*/
+    border-radius: 15px;
+    padding: 0.1em;
+    display: inline;
+    margin-right: 0.25em;
+    /*margin-left: 0.5em;*/
+    /*display: block;*/
+}

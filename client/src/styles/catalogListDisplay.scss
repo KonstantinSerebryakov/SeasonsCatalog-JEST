@@ -1,0 +1,25 @@
+.listBlock {
+  ul {
+    max-width: 800px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+
+    li {
+      font-size: 2em;
+      cursor: pointer;
+      border: black 5px solid;
+      border-radius: 25px;
+      padding: 0.5em;
+      word-wrap: break-word;
+    }
+
+    li:nth-child(n+2) {
+      margin-top: 0.5em;
+    }
+
+    li:hover {
+      box-shadow: 10px 10px 25px 0 rgba(100, 100, 100, 0.8);
+    }
+  }
+}

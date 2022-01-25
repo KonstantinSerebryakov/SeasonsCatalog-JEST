@@ -1,0 +1,30 @@
+.note {
+  .noteContainerBlock {
+    max-width: 800px;
+    margin: 0 auto;
+    border: black 5px solid;
+    padding: 1em;
+  }
+
+  .noteNameBlock {
+    border-bottom: black 5px solid;
+  }
+
+  .noteColsWrapperBlock {
+    margin-top: 2em;
+    width: 100%;
+    display: flex;
+  }
+
+  .noteLeftColBlock {
+    max-width: 50%;
+    box-sizing: border-box;
+  }
+}
+
+//.noteRightColBlock {
+//
+//}
+
+//.noteButtonsBlock {
+//}

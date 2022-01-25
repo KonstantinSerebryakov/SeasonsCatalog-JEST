@@ -1,0 +1,25 @@
+textarea {
+    width: 90%;
+    /*height: 3em;*/
+    resize: none;
+}
+
+.genre {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    user-select: none;
+}
+
+.genre * {
+    word-break: normal;
+}
+
+.genre > * {
+    display: inline-block;
+    /*display: block;*/
+}
+
+.name input {
+    font-size: 1em;
+    width: 90%;
+}

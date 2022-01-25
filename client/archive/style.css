@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+header {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 3em;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 5px solid black;
+}
+
+footer {
+  min-height: 1.75em;
+  box-sizing: border-box;
+  border-top: 5px solid black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer p {
+  margin: 0 10rem 0 0;
+}
+
+hr {
+  margin-top: 1em;
+}

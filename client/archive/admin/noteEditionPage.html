@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/notePage.css">
+    <link rel="stylesheet" href="../../css/noteEditPage.css">
+</head>
+<body>
+<!--// название, описание, листбокс жанра, режиссер, постер, год, "отмена", "далее"-->
+<header>Добавление записи в каталог</header>
+<main>
+    <section>
+        <form class="noteContainer">
+            <!--            <h1>Name</h1>-->
+            <label class="name">
+                <span>Название:</span><br>
+                <input type="text">
+            </label>
+            <hr>
+            <div class="mainFields">
+                <div class="imageColumn">
+                    <label class="imageBox">
+                        <span>upload your image</span>
+                        <input type="file">
+                    </label>
+                </div>
+                <div class="fieldsColumn">
+                    <span>Жанр</span><br>
+                    <div class="genre">
+                        <label>
+                            <input type="checkbox">
+                            <span>лол1</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span>лол2</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span>лол3</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span>лол3</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span>лол3</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span>лол3</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span>лол3</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span>лол3</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span>лол3</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span>лол3</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span>лол3</span>
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            <span>лол3</span>
+                        </label>
+                    </div>
+                    <hr>
+                    <label class="producer">Режиссер<br>
+                        <input type="text">
+                    </label>
+                    <hr>
+                    <label class="year">Год<br>
+                        <input type="month" value="2020-05">
+                    </label>
+                    <hr>
+                    <label class="description">Описание<br>
+                        <textarea rows="12" placeholder="Описание"></textarea>
+                    </label>
+                </div>
+            </div>
+        </form>
+        <div class="noteButtons">
+            <button>Добавить запись</button>
+            <button onclick="history.back()">Отмена</button>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>Created by Konstantin Serebryakov</p>
+</footer>
+</body>
+</html>

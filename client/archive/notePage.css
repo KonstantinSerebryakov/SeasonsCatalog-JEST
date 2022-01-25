@@ -1,0 +1,65 @@
+.mainFields {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-evenly;
+}
+
+* {
+    word-break: break-all;
+}
+
+.fieldsColumn {
+    flex-grow: 1;
+}
+
+.mainFields > * {
+    margin: 0.5em;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.imageColumn {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+}
+
+img {
+    object-fit: scale-down;
+}
+
+.imageBox {
+    box-sizing: border-box;
+    border: black 5px solid;
+    min-width: 280px;
+    min-height: 400px;
+    max-width: 560px;
+    max-height: 800px;
+    /*background: url("/seasonscatalogfrontend/images/image.png") no-repeat;*/
+    /*background-size: 90px;*/
+    /*background-position: center;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageBox:hover {
+    background-color: #B8C1C8;
+}
+
+/**/
+/*label {*/
+/*    display: block;*/
+/*    box-sizing: border-box;*/
+/*    background: red;*/
+/*}*/
+.name {
+    display: block;
+    text-align: center;
+    margin: 2em 0 1em;
+    font-size: 1.6em;
+}
+
+

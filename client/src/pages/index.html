@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>webpack starterkit</title>
+</head>
+<body class="mainPage">
+<div class="wrapper">
+    <header>
+        <div class="searchInputBlock">
+            <label>
+                <span>Поиск:</span>
+                <input type="search" placeholder="Поиск" id="search">
+            </label>
+        </div>
+        <form name="adminSignIn" id="adminSignIn" class="loginBlock">
+            <div class="inputBlock">
+                <label>
+                    <span>* Логин:</span>
+                    <input type="text" name="login" placeholder="Логин" title="поле для ввода логина" id="login"
+                           value="admin">
+                </label>
+                <div class="commentBubble" style="display: none">
+                    <span class="commentText" id="loginError">lol</span>
+                </div>
+            </div>
+            <div class="inputBlock">
+                <label>
+                    <span>* Пароль:</span>
+                    <input type="password" name="password" placeholder="Пароль" title="поле для ввода пароля"
+                           id="password" value="qwerty123">
+                </label>
+                <div class="commentBubble" style="display: none">
+                    <span class="commentText" id="passwordError">lol</span>
+                </div>
+            </div>
+            <button type="submit" name="submit" id="submit">Войти</button>
+        </form>
+    </header>
+
+    <main>
+        <div class="listBlock">
+            <ul id="catalogList">
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="descriptionBlock">
+
+        </div>
+        <div class="creditBlock">
+            <p>&#169;Created by Konstantin Serebryakov</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

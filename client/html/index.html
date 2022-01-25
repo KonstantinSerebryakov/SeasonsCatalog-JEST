@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/mainPageHeader.css">
+    <link rel="stylesheet" href="../css/catalogListDisplay.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <div class="searchInputBlock">
+            <label>
+                <span>Поиск:</span>
+                <input type="search" placeholder="Поиск" id="search">
+            </label>
+        </div>
+        <form name="adminSignIn" id="adminSignIn" class="loginBlock">
+            <div class="inputBlock">
+                <label>
+                    <span>* Логин:</span>
+                    <input type="text" name="login" placeholder="Логин" title="поле для ввода логина" id="login"
+                           value="admin">
+                </label>
+                <div class="commentBubble" style="display: none">
+                    <span class="commentText" id="loginError">lol</span>
+                </div>
+            </div>
+            <div class="inputBlock">
+                <label>
+                    <span>* Пароль:</span>
+                    <input type="password" name="password" placeholder="Пароль" title="поле для ввода пароля"
+                           id="password" value="qwerty123">
+                </label>
+                <div class="commentBubble" style="display: none">
+                    <span class="commentText" id="passwordError">lol</span>
+                </div>
+            </div>
+            <button type="submit" name="submit" id="submit">Войти</button>
+        </form>
+    </header>
+
+    <main>
+        <div class="listBlock">
+            <ul id="catalogList">
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="descriptionBlock">
+
+        </div>
+        <div class="creditBlock">
+            <p>&#169;Created by Konstantin Serebryakov</p>
+        </div>
+    </footer>
+</div>
+</body>
+
+<script src="../scripts/catalogListSynchronizationLogic.js"></script>
+<script src="../scripts/catalogSearchLogic.js"></script>
+<script src="../scripts/loginLogic.js"></script>
+<script src="../scripts/catalogListNavigationLogic.js"></script>
+
+</html>

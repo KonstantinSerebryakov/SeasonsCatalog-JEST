@@ -1,0 +1,24 @@
+.listBlock {
+    /*text-align: center;*/
+    /*margin: 0 auto;*/
+}
+
+.listBlock ul {
+    max-width: 800px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.listBlock ul li {
+    font-size: 2em;
+    cursor: pointer;
+    border: black 5px solid;
+    border-radius: 25px;
+    padding: 0.5em;
+    word-wrap: break-word;
+}
+
+.listBlock ul li:nth-child(n+2) {
+    margin-top: 0.5em;
+}

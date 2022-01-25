@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header * {
+    display: inline-block;
+}
+
+header h1 {
+    margin: 0;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>webpack starterkit</title>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+    </header>
+    <main>
+        <form class="noteContainerBlock" id="noteForm">
+            <div class="noteNameBlock">
+                <label class="name">
+                    <span>Название:</span><br>
+                    <input type="text" id="name">
+                </label>
+            </div>
+            <div class="noteColsWrapperBlock">
+                <div class="noteLeftColBlock">
+                    <label class="imageBox">
+                        <span>upload your image</span>
+                        <input type="file" id="poster">
+                    </label>
+                </div>
+                <div class="noteRightColBlock">
+                    <fieldset class="genre" id="genre">
+                        <legend>Жанр</legend>
+                            <label>
+                                <input type="checkbox" id="genre0">
+                                <span>Биографические</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" id="genre1">
+                                <span>Боевики</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" id="genre2">
+                                <span>Детективы</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" id="genre3">
+                                <span>Драмы</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" id="genre4">
+                                <span>Комедии</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" id="genre5">
+                                <span>Мультфильмы</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" id="genre6">
+                                <span>Мюзиклы</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" id="genre7">
+                                <span>Триллеры</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" id="genre8">
+                                <span>Ужасы</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" id="genre9">
+                                <span>Фантастика</span>
+                            </label>
+                    </fieldset>
+                    <hr>
+                    <label class="producer">Режиссер<br>
+                        <input type="text" id="producer">
+                    </label>
+                    <hr>
+                    <label class="year">Год<br>
+                        <input type="month" value="2020-05" id="date">
+                    </label>
+                    <hr>
+                    <label class="description">Описание<br>
+                        <textarea rows="12" placeholder="Описание" id="description"></textarea>
+                    </label>
+                </div>
+            </div>
+            <div class="noteButtonsBlock">
+                <button>Добавить запись</button>
+                <button onclick="history.back()">Отмена</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="descriptionBlock">
+
+        </div>
+        <div class="creditBlock">
+            <p>&#169;Created by Konstantin Serebryako</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+/* .listBlock ul li a:active {}.listBlock ul li a:hover {}.listBlock ul li a:focus {}.listBlock ul li a:visited {}.listBlock ul li a:link {} */
+.menuList {
+  .listBlock ul li {
+    padding: 0;
+
+    a {
+      display: inline-block;
+      width: 100%;
+      padding: 0.5em;
+      box-sizing: border-box;
+      color: black;
+      outline: none;
+      text-decoration: none;
+    }
+
+    :hover {
+      box-shadow: 10px 10px 25px 0 rgba(100, 100, 100, 0.8);
+    }
+  }
+}

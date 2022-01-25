@@ -1,0 +1,10 @@
+.mainPage {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header * {
+    display: inline-block;
+  }
+}
